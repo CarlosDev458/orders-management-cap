@@ -6,6 +6,55 @@ GET {{server}}/odata/v4/services/Customers
 
 
 ### Customers
+# @name Customers_GET
+GET {{server}}/odata/v4/services/Customers
+
+
+
+### Customers
+# @name Customers_POST
+POST {{server}}/odata/v4/services/Customers
+Content-Type: application/json
+
+{
+  "Name": "Name-5117903",
+  "Email": "Email-5117903",
+  "Phone": "Phone-5117903",
+  "Address": "Address-5117903",
+  "Cep": "06655720",
+  "City": "City-5117903",
+  "Country": "Country-5117903",
+  "CreatedAt": "2004-03-10T00:00:00.000Z",
+  "UpdatedAt": "2013-06-13T00:00:00.000Z"
+}
+
+
+### Customers
+# @name Customers_PATCH
+PATCH {{server}}/odata/v4/services/Customers/51179032-f4c7-4c52-b3ee-ece256ebb0c7
+Content-Type: application/json
+
+{
+  "ID": "51179032-f4c7-4c52-b3ee-ece256ebb0c7",
+  "Name": "Name-5117903",
+  "Email": "Email-5117903",
+  "Phone": "Phone-5117903",
+  "Address": "Address-5117903",
+  "Cep": 79,
+  "City": "City-5117903",
+  "Country": "Country-5117903",
+  "CreatedAt": "2004-03-10T00:00:00.000Z",
+  "UpdatedAt": "2013-06-13T00:00:00.000Z"
+}
+
+
+### Customers
+# @name Customers_DELETE
+DELETE {{server}}/odata/v4/services/Customers/51179032-f4c7-4c52-b3ee-ece256ebb0c7
+Content-Type: application/json
+
+
+### Customers
 # @name Customers_POST
 POST {{server}}/odata/v4/services/Customers
 Content-Type: application/json
@@ -37,8 +86,7 @@ Content-Type: application/json
   "UpdatedAt": "2013-04-10T00:00:00.000Z"
 }
 
-
 ### Customers
 # @name Customers_DELETE
-DELETE {{server}}/odata/v4/services/Customers/c9cd0c58-8ad6-42eb-9311-8ee7c5a7051e
+DELETE {{server}}/odata/v4/services/Customers/
 Content-Type: application/json
