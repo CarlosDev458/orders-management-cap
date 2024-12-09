@@ -6,87 +6,46 @@ GET {{server}}/odata/v4/services/Customers
 
 
 ### Customers
-# @name Customers_GET
-GET {{server}}/odata/v4/services/Customers
-
-
-
-### Customers
 # @name Customers_POST
 POST {{server}}/odata/v4/services/Customers
 Content-Type: application/json
 
 {
-  "Name": "Name-5117903",
-  "Email": "Email-5117903",
-  "Phone": "Phone-5117903",
-  "Address": "Address-5117903",
-  "Cep": "06655720",
-  "City": "City-5117903",
-  "Country": "Country-5117903",
-  "CreatedAt": "2004-03-10T00:00:00.000Z",
-  "UpdatedAt": "2013-06-13T00:00:00.000Z"
+  "ID": "14205978-8ce5-4684-91a1-3d3644c07b05",
+  "Name": "Name-14205978",
+  "Email": "Email-14205978",
+  "Phone": "Phone-14205978",
+  "Address": "Address-14205978",
+  "Cep": "14205978",
+  "City": "City-14205978",
+  "Country": "Country-14205978",
+  "CreatedAt": "2016-10-18T00:00:00.000Z",
+  "UpdatedAt": "2019-02-26T00:00:00.000Z"
 }
 
 
 ### Customers
 # @name Customers_PATCH
-PATCH {{server}}/odata/v4/services/Customers/51179032-f4c7-4c52-b3ee-ece256ebb0c7
+PATCH {{server}}/odata/v4/services/Customers/14205978-8ce5-4684-91a1-3d3644c07b05
 Content-Type: application/json
 
 {
-  "ID": "51179032-f4c7-4c52-b3ee-ece256ebb0c7",
-  "Name": "Name-5117903",
-  "Email": "Email-5117903",
-  "Phone": "Phone-5117903",
-  "Address": "Address-5117903",
-  "Cep": 79,
-  "City": "City-5117903",
-  "Country": "Country-5117903",
-  "CreatedAt": "2004-03-10T00:00:00.000Z",
-  "UpdatedAt": "2013-06-13T00:00:00.000Z"
+  "ID": "14205978-8ce5-4684-91a1-3d3644c07b05",
+  "Name": "Name-14205978",
+  "Email": "Email-14205978",
+  "Phone": "Phone-14205978",
+  "Address": "Address-14205978",
+  "Cep": "14205978",
+  "City": "City-14205978",
+  "Country": "Country-14205978",
+  "CreatedAt": "2016-10-18T00:00:00.000Z",
+  "UpdatedAt": "2019-02-26T00:00:00.000Z"
 }
 
-
-### Customers
-# @name Customers_DELETE
-DELETE {{server}}/odata/v4/services/Customers/51179032-f4c7-4c52-b3ee-ece256ebb0c7
-Content-Type: application/json
-
-
-### Customers
-# @name Customers_POST
-POST {{server}}/odata/v4/services/Customers
-Content-Type: application/json
-
-{
-  "Name": "Carlos",
-  "Email": "carlos.oliveira@gmail.com",
-  "Phone": "11953505236",
-  "Address": "Rua das Pedras",
-  "City": "Itapevi",
-  "Country": "Brazil"
-}
-
-
-### Customers
-# @name Customers_PATCH
-PATCH {{server}}/odata/v4/services/Customers/97237916-2255-46e1-aad6-c223961d68ad
-Content-Type: application/json
-
-{
-  "ID": "97237916-2255-46e1-aad6-c223961d68ad",
-  "Name": "Name-9723791",
-  "Email": "Email-9723791",
-  "Phone": "Phone-9723791",
-  "Address": "Address-9723791",
-  "City": "City-9723791",
-  "Country": "Country-9723791",
-  "CreatedAt": "2023-09-16T00:00:00.000Z",
-  "UpdatedAt": "2013-04-10T00:00:00.000Z"
-}
 
 ### Customers
 # @name Customers_DELETE
 DELETE {{server}}/odata/v4/services/Customers/
 Content-Type: application/json
+
+
