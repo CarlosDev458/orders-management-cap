@@ -1,0 +1,44 @@
+@server = http://localhost:4004
+
+### Customers
+# @name Customers_GET
+GET {{server}}/odata/v4/services/Customers
+
+
+### Customers
+# @name Customers_POST
+POST {{server}}/odata/v4/services/Customers
+Content-Type: application/json
+
+{
+  "Name": "Carlos",
+  "Email": "carlos.oliveira@gmail.com",
+  "Phone": "11953505236",
+  "Address": "Rua das Pedras",
+  "City": "Itapevi",
+  "Country": "Brazil"
+}
+
+
+### Customers
+# @name Customers_PATCH
+PATCH {{server}}/odata/v4/services/Customers/97237916-2255-46e1-aad6-c223961d68ad
+Content-Type: application/json
+
+{
+  "ID": "97237916-2255-46e1-aad6-c223961d68ad",
+  "Name": "Name-9723791",
+  "Email": "Email-9723791",
+  "Phone": "Phone-9723791",
+  "Address": "Address-9723791",
+  "City": "City-9723791",
+  "Country": "Country-9723791",
+  "CreatedAt": "2023-09-16T00:00:00.000Z",
+  "UpdatedAt": "2013-04-10T00:00:00.000Z"
+}
+
+
+### Customers
+# @name Customers_DELETE
+DELETE {{server}}/odata/v4/services/Customers/c9cd0c58-8ad6-42eb-9311-8ee7c5a7051e
+Content-Type: application/json
